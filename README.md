@@ -31,6 +31,7 @@ Answer of the 5 project:
 size <- c("P", "M", "G")
 size_different<- factor(size, levels = c("P", "M", "G"))
 cat(as.character(size_different), "\n")
+` ``` `
 
 2-) checking if size_differnt contains P
 size <- c("P", "M", "G")
@@ -38,7 +39,7 @@ size_different<- factor(size, levels = c("P", "M", "G"))
 contais_P <- "P" %in% size_different
 contais_P
 
-
+` ``` `
 
 
 
