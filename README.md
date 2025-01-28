@@ -27,15 +27,18 @@ The following tools were used in the construction of the project:
 
 
 Answer of the 5 project:
-1-) Create a vector with the size P,M,G and using factor to add levels in this vector
-size <- c("P", "M", "G")
-size_different<- factor(size, levels = c("P", "M", "G"))
-cat(as.character(size_different), "\n")
-` ``` `
 
-2-) checking if size_differnt contains P
+1-) Create a vector with the size P, M, G and using factor to add levels in this vector:
+```R
 size <- c("P", "M", "G")
-size_different<- factor(size, levels = c("P", "M", "G"))
+size_different <- factor(size, levels = c("P", "M", "G"))
+cat(as.character(size_different), "\n")
+```
+
+2-) Checking if `size_different` contains P:
+```R
+size <- c("P", "M", "G")
+size_different <- factor(size, levels = c("P", "M", "G"))
 contais_P <- "P" %in% size_different
 contais_P
 
