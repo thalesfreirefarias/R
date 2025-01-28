@@ -42,7 +42,6 @@ size_different <- factor(size, levels = c("P", "M", "G"))
 contais_P <- "P" %in% size_different
 contais_P
 
-` ``` `
 
 
 
