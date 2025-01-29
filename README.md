@@ -25,8 +25,26 @@ The following tools were used in the construction of the project:
 - [Posit Cloud](<https://posit.cloud/>)
 - [R](<https://www.r-project.org/>)
 
+Answer of the 1th project
+1-)Create a vector with 3 rows
+```R
+minha_matriz <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9), nrow = 3, byrow = TRUE)
+minha_matriz
+```
+2-)Create a vector and rename the col and row
+```R
+matriz_salarios <- matrix(c(8200, 4400, 3800, 6500, 2600, 3500, 7100, 9000, 5200), nrow = 3, byrow = TRUE)
+nomes_linhas <- c("João", "Maria", "Pedro")
+nomes_colunas <- c("Jan", "Fev", "Mar")
+rownames(matriz_salarios) <- nomes_linhas
+colnames(matriz_salarios) <- nomes_colunas
 
-Answer of the 5 project:
+matriz_salarios
+
+```
+
+
+Answer of the 5th project:
 
 1-) Create a vector with the size P, M, G and using factor to add levels in this vector:
 ```R
