@@ -42,6 +42,29 @@ colnames(matriz_salarios) <- nomes_colunas
 matriz_salarios
 
 ```
+Answer of the 2th project
+1-) Acess the third number in a list
+```R
+numeros <- c(10, 20, 30, 40, 50)
+numeros[3]
+```
+2-)Sum numbers in R:
+```R
+colSums(minha_matriz)
+```
+3-) Add Col and Rows in matriz: cbind() and rbind()
+
+4-) Create a table with 2 rows and 2 columns
+```R
+tabela <- matrix(c(1, 2, 3, 4), nrow = 2, byrow = TRUE)
+```
+5-) To assign names to the elements of the vector 
+```R
+names(nomes) <- c(‘Ana’, ‘Bob’, ‘Charlie’, ‘David’)
+nomes <- c(‘Ana’, ‘Bob’, ‘Charlie’, ‘David’); names(nomes) <- nomes
+```
+
+
 
 
 Answer of the 5th project:
