@@ -27,6 +27,7 @@ The following tools were used in the construction of the project:
 - [R](<https://www.r-project.org/>)
 
 Answer of the 1th project
+
 1-)Create a vector with 3 rows
 ```R
 minha_matriz <- matrix(c(1, 2, 3, 4, 5, 6, 7, 8, 9), nrow = 3, byrow = TRUE)
@@ -44,6 +45,7 @@ matriz_salarios
 
 ```
 Answer of the 2th project
+
 1-) Acess the third number in a list
 ```R
 numeros <- c(10, 20, 30, 40, 50)
@@ -65,8 +67,47 @@ names(nomes) <- c(‘Ana’, ‘Bob’, ‘Charlie’, ‘David’)
 nomes <- c(‘Ana’, ‘Bob’, ‘Charlie’, ‘David’); names(nomes) <- nomes
 ```
 
+Answer of the 3th project
 
+1-)SUM two vectors and round the Result
 
+```R
+a <- c(1.5, 2.7, 3.2, 4.8)
+b <- c(0.3, 1.1, 2.0, 1.5)
+resultado <- round(sum(a, b))
+resultado
+```
+2-) IF Else in R
+```R
+if (condicao) { codigo } else { outro_codigo }
+```
+
+3-)Use For to generate a result that differentiates between even and odd numbers
+```R
+for(i in 1:10){
+if (i %% 2 == 0){
+print("Par")
+} else{
+print("Impar")
+}
+}
+```
+
+4-)Implement a loop to accumulate daily sales until they reach 1000
+```R
+vendas_diarias <- c(120, 80, 150, 180, 100, 120, 130, 220)
+total_vendas <- 0
+indice <- 1
+objetivo_vendas <- 1000
+
+while (total_vendas < objetivo_vendas && indice <= length(vendas_diarias)) {
+  total_vendas <- total_vendas + vendas_diarias[indice]
+  print(paste("O total de vendas até agora é:", total_vendas))
+  indice <- indice + 1
+}
+
+print(paste("Total de vendas final:", total_vendas))
+```
 
 Answer of the 5th project:
 
