@@ -109,6 +109,27 @@ while (total_vendas < objetivo_vendas && indice <= length(vendas_diarias)) {
 print(paste("Total de vendas final:", total_vendas))
 ```
 
+Answer of the 4th project
+1-) Create a vector with students rates and round this rates
+```R
+notas_alunos <- c(7.5, 8.0, 6.2, 9.1)
+notas_alunos_arr <- round(notas_alunos)
+notas_alunos_arr
+```
+
+2-) Math funcionts in R
+abs() – Returns the absolute value of a number.
+sqrt() – Returns the square root of a number.
+mean() – Calculates the mean (average) of a numeric vector. While it is a statistical function, it can also be considered mathematical.
+
+3-) Median of selected numbers
+```R
+numeros <- c(12, 8, 15, 7, 10, 14, 9)
+mediana <- median(numeros)
+mediana
+```
+4-)Max value of a selected numbers -> max(numeros)
+
 Answer of the 5th project:
 
 1-) Create a vector with the size P, M, G and using factor to add levels in this vector:
